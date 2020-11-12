@@ -1,0 +1,109 @@
+#work{
+    margin-top: 60px;
+}
+
+#regulamento{
+    margin-top: 150px;
+}
+
+.aviso{
+    color: red;
+}
+
+.box{
+    margin-top: -30px;
+    -webkit-box-shadow: 3px 3px 3px 0px grey;
+    -moz-box-shadow: 3px 3px 3px 0px grey;
+    box-shadow: 3px 3px 3px 0px grey;  
+}
+
+.botao{
+    cursor: pointer;
+}
+
+.navbar-b .navbar-brand {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navbar-b.navbar-trans .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-b.navbar-trans .nav-link.active {
+    color: black;
+}
+
+.navbar-b.navbar-trans .nav-link:before {
+    background-color: black;
+}
+
+.imagens{
+    height: 265.94px;
+    width: 465px;
+}
+
+.imagens-tema{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacamento{
+    margin-top: 5px;
+}
+
+.descricao h5{
+    margin-top: 15px;
+    color: black;
+}
+
+.atencao{
+    color: #1dd1a1;
+}
+
+.texto{
+    font-size: 19px !important;
+    padding-left: 30px;
+}
+
+.atencao{
+    font-size: 25px;
+}
+
+.navbar-b.navbar-trans .nav-link {
+    color: #1dd1a1;
+}
+.navbar-b.navbar-trans .nav-link:hover {
+    color: #1dd1a1;
+}
+.navbar-b.navbar-trans .nav-link.active {
+    color: #1dd1a1;
+}
+.navbar-b.navbar-trans .nav-link:before {
+    background-color: #1dd1a1;
+}
+.navbar-b .navbar-brand {
+    color: #1dd1a1;
+}
+.navbar-b {
+    background-color: #fff;
+}
+.navbar-toggler span {
+    background-color: black;
+}
+
+@media screen and (min-width: 100px) {
+    .texto {
+      font-size: calc(16px + (8/1200) * 100 * 1vw);
+      background: #fff;
+      padding: 10px;
+    }
+  }
+
+
+  

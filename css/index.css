@@ -1,0 +1,89 @@
+body {
+    background: #9AECDB;
+}
+
+
+.botao-menina, .botao-menina:hover {
+    background-color: #ff9ff3;
+    color: #fff;
+}
+
+.botao-menino, .botao-menino:hover{
+    background-color: #48dbfb;
+    color: #fff;
+}
+
+.botoes{
+    background-color: #f6e58d;
+}
+
+.linha-branca {
+    border-color: white;
+}
+
+.botao-detalhes{
+    float: right;
+}
+
+.imagem{
+    height: 196.11px;
+    width: 370px;
+}
+
+.entre-em-contato{
+    margin-left: -12px;
+}
+
+.escrita-categorias{
+    margin-top: 10px;
+}
+
+#filtro{
+    margin-bottom: 20px;
+}
+
+/* Seta do botao para subir página */
+.fa-chevron-up:before {
+    content: "\f077";
+    color: black;
+}
+
+/* Botao de detalhes dos temas */
+.btn-primary {
+    color: black;
+    background-color: #fffa65;
+    border-color: #fffa65;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #fffa65;
+    border-color: #fffa65;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #f6e58d;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: black;
+    background-color: #fffa65;
+    border-color: #fffa65;
+}
+@media only screen and (max-width: 765px) {
+    img.img-fluid.imagem {
+        height: 196.11px;
+        width: 510px;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    img.img-fluid.imagem {
+        height: 196.11px;
+        width: 545px;
+    }
+  }
